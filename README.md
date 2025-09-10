@@ -1,7 +1,7 @@
 # Reto-2
 ### Case: Sport Cars
-
-Here, we have all the classes for this topic 
+In this repo there are some UML diagrams that can explain the relation beetween the classes of this topic.
+##### Here, we have all the classes for this topic:
 
    ```mermaid
           classDiagram
@@ -43,7 +43,7 @@ Here, we have all the classes for this topic
               +int weight 
               
               
-              +drive()
+             
               +Represent()
               +compite()
               +jump()
@@ -171,7 +171,7 @@ direction TB
         +int weight 
         
         
-        +drive()
+       
         +Represent()
         +compite()
         +jump()
@@ -253,7 +253,6 @@ direction TB
         +int weight 
         
         
-        +drive()
         +Represent()
         +compite()
         +jump()

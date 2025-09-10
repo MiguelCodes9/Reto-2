@@ -287,6 +287,9 @@ direction TB
   Sport -->Team
       Team<--Driver
       Team<--Car
+
+```
+
 ### Relation Car and other parts
   ```mermaid
         classDiagram

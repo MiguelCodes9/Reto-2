@@ -370,8 +370,8 @@ direction TB
             } 
             
             
-            Car <-- Engine
-            Producer-brand--* Car 
+            Car *-- Engine
+            Producer-brand--|> Car 
             Car*-- Modifications
             Car*-- Transmission
             Car*-- Traction

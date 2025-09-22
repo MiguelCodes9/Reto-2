@@ -216,11 +216,11 @@ direction TB
     
     
     
-    Driver-->Car
-    Car<--Modifications 
-    Car--> Engine
-    Engine-->Transmission
-    Transmission-->Traction
+    Driver--Car
+    Car*--Modifications 
+    Car--Engine
+    Engine--Transmission
+    Transmission*--Traction
 ``` 
 
 ### Realation about Team 
@@ -283,9 +283,9 @@ direction TB
               +help()
               +Represent()
               }
-  Sport -->Team
-      Team<--Driver
-      Team<--Car
+  Sport *--Team
+      Team*--Driver
+      Team*--Car
 
 ```
 
